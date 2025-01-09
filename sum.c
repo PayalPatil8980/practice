@@ -13,7 +13,6 @@ int main(){
             sum=a[i]+a[j];
             if(target!=sum){
                 break;
-                
             }
             else{
                 printf("\n[%d , %d]",i,j);
