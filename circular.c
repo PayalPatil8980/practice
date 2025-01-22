@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int f=-1,r=-1,i,x,n=5;
 int a[5];
 
@@ -29,11 +28,12 @@ void dqueue(){
         printf("\n%d: Dequed",a[f]);
         f++;
         printf("\n");
-        
+
     }
 }
 
 void display(){
+
     i=f;
     if(r==-1 && f==-1){
         printf("Queue is empty");
@@ -50,11 +50,12 @@ void display(){
 int main(){
     equeue(10);
     equeue(20);
-    equeue(30);
-    equeue(40);
-    equeue(50);
-    equeue(60);
+   
+    display();
+    dqueue();
     display();
     dqueue();
     display();
 }
+
+
